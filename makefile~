@@ -1,0 +1,7 @@
+loader.bin : loader.S
+    nasm -I include/ -o loader.bin loader.S
+
+
+
+clean:
+   rm -rf loader.bin
