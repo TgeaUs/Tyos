@@ -10,7 +10,7 @@ SECTION MBR vstart=0x7c00
     int 0x10
 
     jmp $
-
+fadsfasfsafsad
     msg db "hello world"
     
     times 510-($-$$) db 0
